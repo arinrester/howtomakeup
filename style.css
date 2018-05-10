@@ -1,0 +1,35 @@
+.header {
+    background-color: darkorchid;
+    padding: 20px;
+    text-align: center;
+}
+.topnav {
+    overflow: hidden;
+    background-color: darkorchid;
+    text-align: center}
+.topnav a {
+    float: left;
+    display: block;
+    color: darkorchid;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.column {
+    float: left;
+    width: 33.3%;
+    padding: 15px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    width: 66.6%;
+    padding: 15px;}
+.footer {
+    background-color: darkorchid;
+    padding: 10px;
+    text-align: center;}
